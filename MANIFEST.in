@@ -5,4 +5,5 @@ recursive-include examples *.py *.txt
 recursive-include stopwds/*
 recursive-include stopwds/datasets/*
 recursive-include stopwds/datasets/stopwords/*
+recursive-include stopwds/datasets/stopwords/cn/*
 

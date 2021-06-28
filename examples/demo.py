@@ -2,7 +2,7 @@
 '''
 Descri：
 '''
-from nlpwords import stopwords
+from stopwds import stopwords
 
 stopwords = stopwords()
 for stopword in stopwords:
