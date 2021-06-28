@@ -4,7 +4,7 @@
 </p>
 
 <h3 align="center">
-    <p>Frequent used words in NLP</p>
+    <p>Stopwords in NLP</p>
 </h3>
 
 
