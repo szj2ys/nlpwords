@@ -39,7 +39,7 @@ def version():
 
 def run():
     try:
-        cli(prog_name='nlpwords')
+        cli(prog_name='stopwds')
     except Exception as e:
         pass
 

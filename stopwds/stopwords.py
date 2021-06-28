@@ -1,6 +1,6 @@
 # *_*coding:utf-8 *_*
 from os.path import join
-from nlpwords.paths import dirs
+from stopwds.paths import dirs
 
 
 def stopwords(what='baidu'):

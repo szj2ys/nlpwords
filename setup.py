@@ -17,7 +17,7 @@ def read_requirements(filename):
         if not line.startswith("#")
     ]
 
-NAME='nlpwords'
+NAME='stopwds'
 DESCRIPTION = (
     "Having fun with language processing 🐳"
 )
@@ -68,7 +68,7 @@ def get_long_description():
 
 about = get_about(
     author="szj",
-    url="https://github.com/szj2ys/nlpwords",
+    url="https://github.com/szj2ys/stopwds",
     email="szj2ys@qq.com",
 )
 
@@ -89,7 +89,7 @@ setup(
     install_requires=read_requirements("requirements.txt"),
     include_package_data=True,
     entry_points={
-        "console_scripts": ["nlpwords=nlpwords.cli:run"],
+        "console_scripts": ["stopwds=stopwds.cli:run"],
     },
     license="MIT",  # BSD
     classifiers=[
