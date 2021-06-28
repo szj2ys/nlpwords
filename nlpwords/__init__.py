@@ -2,3 +2,4 @@
 '''
 Descri：
 '''
+from .stopwords import stopwords
