@@ -19,7 +19,7 @@ def read_requirements(filename):
 
 NAME='stopwds'
 DESCRIPTION = (
-    "Having fun with language processing 🐳"
+    "Stopwords in NLP 🦜"
 )
 
 
