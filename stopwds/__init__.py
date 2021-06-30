@@ -3,7 +3,7 @@ from os.path import join
 from stopwds.paths import dirs
 
 
-def stopwords(what='baidu'):
+def stopwords(what='baidu', user_stopwds=None):
     '''
     return:: an iterator
     '''

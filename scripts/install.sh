@@ -21,6 +21,7 @@ PACKAGE=$(basename `pwd`)
 
 ${PREFIX}autoflake --recursive ${PACKAGE}
 ${PREFIX}black ${PACKAGE} --check
+"$PIP" install -y ${PACKAGE}
 "$PIP" install -e .
 
 
